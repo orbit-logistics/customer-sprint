@@ -1,23 +1,16 @@
-# Thema für den Orbit-Sprint einreichen
+# Orbit-Sprint: Thema formulieren
 
-Vor jedem Customer Sprint mit Orbit reicht ihr die Themen ein, die euch im Alltag mit Orbit Zeit kosten, am besten kleine Verbesserungen, die in einem Sprint machbar sind. Orbit bringt zum Sprint-Meeting je Thema einen Lösungsvorschlag mit, und im Meeting wählen wir gemeinsam aus, was in den Sprint kommt. Eingereicht wird über ein kurzes Formular, bis 48 Stunden vor dem Meeting, ein Thema je Formular.
+Mit dieser Anleitung hilft euch eure KI, ein Thema für den nächsten Sprint mit Orbit zu formulieren. Sie fragt, was im Alltag nicht rund läuft, wie oft es vorkommt und woran ihr merkt, dass es gelöst ist. Am Ende gibt sie euch die Felder für das Formular zum Kopieren.
 
-Dieser Skill hilft euch, ein Thema mit dem KI-Assistenten eurer Wahl in wenigen Minuten sauber zu formulieren. Er fragt nach Situation, Häufigkeit, Kosten und woran ihr erkennt, dass es gelöst ist. Am Ende gibt er die Felder des Formulars fertig zum Kopieren aus. Er sagt nichts darüber, ob oder wann ein Thema umgesetzt wird. Das klären wir gemeinsam im Meeting. Screenshots, Beispieldaten oder eigene Ausarbeitungen könnt ihr im Formular unter "Anhänge" hochladen.
+## So startet ihr
 
-## Installation
+Schreibt eurer KI, zum Beispiel Claude oder ChatGPT:
 
-**Claude Code:** Kopiert diesen Ordner nach `~/.claude/skills/orbit-sprint-thema/`, dann steht der Skill in allen Projekten bereit. Für nur ein Projekt kopiert ihr ihn nach `.claude/skills/orbit-sprint-thema/` in diesem Projekt.
+> Ich möchte ein Thema für den Orbit-Sprint vorschlagen. Lies bitte zuerst die Anleitung unter https://raw.githubusercontent.com/orbit-logistics/customer-sprint/main/SKILL.md und führe mich danach durch.
 
-```bash
-git clone https://github.com/orbit-logistics/customer-sprint ~/.claude/skills/orbit-sprint-thema
-```
+Kann eure KI keine Links öffnen, kopiert den Inhalt von [SKILL.md](SKILL.md) in den Chat und schreibt dazu, dass ihr ein Thema einreichen wollt.
 
-Danach reicht ein Satz wie "Ich will ein Thema für den Orbit-Sprint einreichen".
+## Einreichen
 
-**claude.ai:** Legt ein Projekt an, zum Beispiel "Orbit-Sprint", und fügt den Inhalt von `SKILL.md` als Projekt-Anweisung ein. Jeder neue Chat in diesem Projekt startet dann mit dem Skill.
-
-**Andere Assistenten:** Fügt den Inhalt von `SKILL.md` als erste Nachricht in einen neuen Chat ein und erzählt danach euer Thema.
-
-## Formular
-
-Jeder Kunde hat sein eigenes Formular "Thema für den nächsten Sprint". Den Link bekommt ihr von Orbit, er steht in jedem Sprint-Post in eurem Orbit-Kanal.
+- Den Link zum Formular findet ihr in eurem Orbit-Kanal.
+- Frist: 48 Stunden vor dem Sprint-Meeting, ein Thema je Formular.
